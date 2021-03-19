@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: white !important;
+  position: fixed;
+  top: 0%;
+  width: 100vw;
+  z-index: 20;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 50px;
+  color: orangered !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.profile-pic {
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.first,
+.skills {
+  background: #f2f2f2;
+}
+
+.top-container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.sd {
+  color: orangered;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.custom-hr {
+  width: 25%;
+  height: 2px;
+  background-color: orangered;
+  margin: auto;
+}
+
+.about {
+  padding: 50px 0;
+}
+
+.about-me {
+  margin-top: 50px;
+}
+
+.about-me-img {
+  max-width: 500px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-container p {
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.skills {
+  padding: 50px 0;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.skills-card {
+  background-color: white;
+  padding: 50px;
+  color: orangered;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skills-card i {
+  font-size: 25px;
+}
+
+.skills-card p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0 !important;
+}
+
+.projects {
+  padding: 50px 0;
+}
+
+.project-card {
+  max-width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+.project-image {
+  transition: all ease 0.5s;
+}
+.project-image:hover {
+  transform: scale(1.1);
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icon-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.icon-container i {
+  font-size: 30px;
+  color: grey;
+  padding: 10px 50px;
+}
+
+.icon-container i:hover {
+  color: orangered;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  margin: auto;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.footer .icon-container a {
+  padding: 0 25px;
+  margin: auto;
+}
+
+.footer .icon-container {
+  margin: auto;
+  padding: 25px 0;
+  text-align: center;
+  max-width: 500px;
+}
+
+.text-footer {
+  color: grey;
+}
