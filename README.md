@@ -89,7 +89,6 @@
           <a href="https://github.com/chatlekha"><i class="fab fa-github"></i></a>
           <a href="mailto:chatlekhak@gmail.com"><i class="far fa-envelope"></i></a>
         </div>
-        </div>
         <div id="about"></div>
       </div>
     </section>
