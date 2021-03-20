@@ -48,19 +48,20 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/612/547/823/wall-brick-texture-units-wallpaper-thumb.jpg);
+  background-image: url(https://www.muralswallpaper.co.uk/app/uploads/deep-blue-brick-wall-mural-plain-825x535.jpg);
 }
 
 .name {
   font-weight: bold;
   margin-top: 25px;
+  font-size: 300%;
 }
 
 .sd {
   color: orangered;
   font-weight: bold;
   font-size: larger;
-  background-color: mintcream;
+  
 }
 
 .custom-hr {
@@ -149,6 +150,15 @@ body {
   flex-wrap: wrap;
 }
 
+.myicon {
+  background: url(cv.svg);
+  color: white;
+  height: 43px;
+  width: 43px;
+  display: block;
+  margin-left: 100%;
+}
+
 .icon-container {
   display: flex;
   margin-top: 50px;
@@ -156,7 +166,7 @@ body {
 
 .icon-container i {
   font-size: 30px;
-  color: grey;
+  color: whitesmoke;
   padding: 10px 50px;
 }
 
