@@ -32,7 +32,7 @@
     />
     <!-- CSS custom -->
     <link rel="stylesheet" href="style.css" />
-    <title>Chatlekha Klamruang</title>
+    <title style="text-alignment=left;">Chatlekha Klamruang</title>
   </head>
   <body>
     <!-- Navbar -->
