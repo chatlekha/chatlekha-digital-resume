@@ -32,12 +32,12 @@ body {
 .profile-pic {
   width: 200px;
   border-radius: 80%;
-  margin-top: 50px;
+  margin-top: 50px;  
 }
 
 .first,
 .skills {
-  background: #f2f2f2;
+  background: #f1f1f1;
   background-blend-mode: hue;
 }
 
@@ -54,7 +54,7 @@ body {
 .name {
   font-weight: bold;
   margin-top: 25px;
-  font-size: 300%;
+  font-size: 350%;
 }
 
 .sd {
@@ -150,22 +150,13 @@ body {
   flex-wrap: wrap;
 }
 
-.myicon {
-  background: url(cv.svg);
-  color: white;
-  height: 43px;
-  width: 43px;
-  display: block;
-  margin-left: 100%;
-}
-
 .icon-container {
   display: flex;
   margin-top: 50px;
 }
 
 .icon-container i {
-  font-size: 40px;
+  font-size: 30px;
   color: whitesmoke;
   padding: 10px 50px;
 }
@@ -539,3 +530,96 @@ body {
     text-align: left;
   }
 }
+/* Profile Image Style */
+@-webkit-keyframes pulsate {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 0.0; }
+  50% {
+    opacity: 1.0; }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0.0; } }
+@keyframes pulsate {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 0.0; }
+  50% {
+    opacity: 1.0; }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0.0; } }
+
+.cc-profile-image a {
+  position: relative; }
+
+.cc-profile-image a:before {
+  content: "";
+  border: 15px solid rgba(194, 88, 39, 0.6);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  left: 0;
+  -webkit-animation: pulsate 1.6s ease-out;
+          animation: pulsate 1.6s ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  opacity: 0.0;
+  z-index: 99; }
+
+.cc-profile-image img {
+  position: relative;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  padding: 0;
+  margin: 0;
+  border: 15px solid transparent;
+  z-index: 9999;
+  transition: all .3s ease-out; }
+
+.cc-profile-image a:hover img {
+  transform: scale(1.06, 1.06); }
+
+.cc-profile-image a:hover:before {
+  -webkit-animation: none;
+          animation: none; }
+
+/*button*/
+.btn-primary {
+  background-color: whitesmoke;
+  color: #1e2a3a; }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover,
+  .show > .btn-primary.dropdown-toggle,
+  .show > .btn-primary.dropdown-toggle:focus,
+  .show > .btn-primary.dropdown-toggle:hover {
+    background-color: orangered;
+    color: #1e2a3a;
+    box-shadow: none; }
+  .btn-primary:hover {
+    box-shadow: 0 3px 8px 0 rgba(50, 223, 16, 0.17); }
+  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active,
+  fieldset[disabled] .btn-primary,
+  fieldset[disabled] .btn-primary:hover,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary.focus,
+  fieldset[disabled] .btn-primary:active,
+  fieldset[disabled] .btn-primary.active {
+    background-color: orangered;
+    border-color: orangered; }
+  .btn-primary.btn-simple {
+    color: orangered;
+    border-color: orangered; }
+    .btn-primary.btn-simple:hover, .btn-primary.btn-simple:focus, .btn-primary.btn-simple:active {
+      background-color: transparent;
+      color: whitesmoke;
+      border-color:whitesmoke;
+      box-shadow: none; }
+  .btn-primary.btn-link {
+    color: white; }
+    .btn-primary.btn-link:hover, .btn-primary.btn-link:focus, .btn-primary.btn-link:active {
+      background-color: transparent;
+      color: white;
+      text-decoration: none;
+      box-shadow: none; }
