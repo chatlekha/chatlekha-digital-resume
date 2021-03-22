@@ -558,8 +558,8 @@ body {
   content: "";
   border: 15px solid rgba(194, 88, 39, 0.6);
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   position: absolute;
   left: 0;
   -webkit-animation: pulsate 1.6s ease-out;
@@ -572,8 +572,8 @@ body {
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
