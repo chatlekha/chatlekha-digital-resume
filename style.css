@@ -35,9 +35,8 @@ body {
   margin-top: 50px;  
 }
 
-.first,
-.skills {
-  background: #f1f1f1;
+.first {
+  background: #1e2a3a;
   background-blend-mode: hue;
 }
 
@@ -97,6 +96,8 @@ body {
 
 .skills {
   padding: 50px 0;
+  background: #f1f1f1;
+  background-blend-mode: hue
 }
 
 .skills-container {
